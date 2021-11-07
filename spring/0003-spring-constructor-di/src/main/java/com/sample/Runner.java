@@ -10,5 +10,7 @@ public class Runner {
         Test test = context.getBean("test",Test.class);
         test.saySomething();
 
+
+
     }
 }
