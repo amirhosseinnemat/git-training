@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="0011-spring-mvc-controller:war" />
+      <artifact name="0011-spring-mvc-controller:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf6c6645-372d-4001-8056-6362713d4a14" name="Default Changelist" comment="" />
+    <list default="true" id="bf6c6645-372d-4001-8056-6362713d4a14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +200,7 @@
       <updated>1636495814859</updated>
       <workItem from="1636495817174" duration="812000" />
       <workItem from="1636496638441" duration="1755000" />
-      <workItem from="1636503396402" duration="717000" />
+      <workItem from="1636503396402" duration="1109000" />
     </task>
     <servers />
   </component>
