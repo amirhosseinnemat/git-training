@@ -11,7 +11,7 @@
     <title>Title</title>
 </head>
 <body>
-<h2>${student.firstName} - ${student.lastName}</h2>
+<h2>${student.firstName} - ${student.lastName} - ${student.country}</h2>
 <hr>
 <a href="/">Click here to go home page</a>
 
