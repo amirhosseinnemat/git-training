@@ -20,11 +20,20 @@
     <br><br>
     lastName : <form:input path="lastName"/>
     <br><br>
-    country : <form:select path="country">
-    <form:option value="iran" label="iran"/>
-    <form:option value="turkey" label="turkey"/>
-</form:select>
-    <br><br>
+    country :
+    <form:select path="country">
+        <%--    <form:option value="iran" label="iran"/>--%>
+        <%--    <form:option value="turkey" label="turkey"/>--%>
+        <form:options items="${student.countryOption}"/>
+    </form:select>
+    <br>
+    Male: <form:radiobutton path="gender" value="male"/> <br>
+    Female: <form:radiobutton path="gender" value="female"/> <br>
+    <br>
+    <br>
+    Operating system : Linux<form:checkbox path="operatingSystem" value="Linux"/>
+    <br>Mac<form:checkbox path="operatingSystem" value="Mac"/>
+    <br> <br>
     <input type="submit" value="Submit">
 </form:form>
 </body>

@@ -30,6 +30,7 @@ public class HomeController {
     @RequestMapping("/processForm")
     public String processForm(@ModelAttribute("student") Student theStudent){
         System.out.println(theStudent.getFirstName());
+        System.out.printf(theStudent.getCountry());
         return "result";
     }
 }
