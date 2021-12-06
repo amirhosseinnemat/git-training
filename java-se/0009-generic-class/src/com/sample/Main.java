@@ -11,5 +11,7 @@ public class Main {
         GenericNumberClass genericNumberClass = new GenericNumberClass(8,2);
         genericNumberClass.showNumber();
 
+        System.out.println("Hello, world");
+
     }
 }

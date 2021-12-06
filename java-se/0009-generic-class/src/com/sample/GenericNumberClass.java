@@ -1,5 +1,7 @@
 package com.sample;
 
+
+//generic class
 public class GenericNumberClass<L extends Number, T extends Number> {
 
     L number1;
