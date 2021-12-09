@@ -1,7 +1,7 @@
 package com.sample;
 //import just one static member
 import static java.lang.System.out;
-//import all static member
+//import all static members
 import static java.lang.Math.*;
 public class Sample {
 
