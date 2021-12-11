@@ -10,6 +10,15 @@ let userTwo = {
     role:'employee'
 }
 
+let student = {
+    name:'ali',
+    family:'karimi',
+    showInfo:function(){
+        console.log(`name: ${this.name}
+family: ${this.family}`)
+    }
+}
+
 let showUser = function(user) {
     let res = `name : ${user.name} - id : ${user.id} - role : ${user.role}`
     console.log(res)
@@ -17,3 +26,4 @@ let showUser = function(user) {
 
 showUser(userOne)
 showUser(userTwo)
+student.showInfo()
